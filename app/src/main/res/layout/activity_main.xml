@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="4dp"
+    tools:context="MainActivity">
+
+    <include android:id="@+id/splashScreen"  layout="@layout/splash_screen"/>
+    <include android:id="@+id/mainScreen"    layout="@layout/main_screen"/>
+    <include android:id="@+id/detailScreen"  layout="@layout/details_screen"/>
+
+</FrameLayout>
